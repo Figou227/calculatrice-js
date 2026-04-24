@@ -25,3 +25,12 @@ function modulo(a, b) {
 // Tests
 console.log('10 % 3 =', modulo(10, 3));   // Attendu : 1
 console.log('15 % 4 =', modulo(15, 4));   // Attendu : 3
+
+
+function puissance(base, exposant) {
+    return Math.pow(base, exposant);
+}
+
+// Tests
+console.log('2^10 =', puissance(2, 10));   // Attendu : 1024
+console.log('3^3 =', puissance(3, 3));     // Attendu : 27
